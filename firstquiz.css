@@ -1,0 +1,94 @@
+body {
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(27, 101, 151);
+}
+
+form {
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid hsl(67, 111, 244);
+    border-radius: 4px;
+}
+
+.vertical{
+    background-color: white;
+    width: 10px;
+    height: 50%;
+    float: left;
+    margin-top: 5 px;
+    position: static;
+    border-radius: 6px;
+    
+}
+input[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    margin: 5px ;
+    background-color: rgb(41, 114, 163) ;
+    border-radius: 10px; 
+    box-sizing: border-box;
+    display: center;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {  
+    font-size:53px;
+    color: rgb(254, 254, 254);
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif
+    ;
+    margin:15px;}
+
+
+.container{
+    
+    padding: 10px;
+    margin: 300px;
+    display: grid; 
+    height:400px;
+    grid-template-columns: 1fr 1fr 1fr ;  
+    justify-content: center ;
+    }
+
+h2 { 
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+    }
+
+.login {
+    padding: 10px;
+    margin: 9px;
+    Height: 400px;
+    width: 400px;
+}
+
+.login1{
+    margin: 10px;
+    background-color: rgb(240, 237, 237);
+    Height: 400px;
+    width: 400px; 
+    padding: 10px; 
+    border: 1px solid rgb(136, 129, 129);
+}
+
+.forgetpass{
+    padding: 5px;
+    text-align: left;
+    color: #3b3636;
+    height: 20px;
+    width: 250px;
+    margin: 5px;
+
+}
+
+
+.signup {
+    height: 0.5px;
+    width: 250px;
+     margin: 10px;
+     padding: 10px;
+    text-align: center;}
